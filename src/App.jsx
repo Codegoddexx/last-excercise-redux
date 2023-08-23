@@ -48,10 +48,6 @@ function App() {
       {goods.map((theCards, index) => {
         return (
           <CustomCards
-            style={{
-              display: "flex",
-              width: "6rem",
-            }}
             key={index}
             {...theCards}
             image={theCards.image}
