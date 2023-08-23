@@ -75,6 +75,7 @@ function App() {
           console.log("clicked");
         }}
       />
+      <div className="cartItems"></div>
     </>
   );
 }
