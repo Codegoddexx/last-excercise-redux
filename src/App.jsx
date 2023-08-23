@@ -41,6 +41,7 @@ const goods = [
 ];
 
 function App() {
+  const [selectedItems, setSelectedItems] = useState([]);
   const dispatch = useDispatch();
 
   return (
